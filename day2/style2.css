@@ -1,0 +1,25 @@
+body {
+    font-family: Tahoma;
+    font-size: 11px;
+    margin-left: 240px;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+ul li {
+    font-family: consolas;
+}
+.stl1 {
+    color: darkgreen;
+}
+.stl2 {
+    color: red;
+}
+.list1 {
+    list-style-type: circle;
+}
+img {
+    height: 479px;
+    width: 356px;
+}

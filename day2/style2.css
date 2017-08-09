@@ -1,11 +1,15 @@
 body {
     font-family: Tahoma;
     font-size: 11px;
-    margin-left: 240px;
+}
+.par {
+    margin-left: 370px;
+    margin-right: 455px;
 }
 h1 {
     text-transform: uppercase;
-    text-align: center;
+    margin-left: 150px;
+
 }
 ul li {
     font-family: consolas;

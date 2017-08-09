@@ -1,10 +1,13 @@
 body {
     font-family: Tahoma;
     font-size: 11px;
+    text-align: justify;
 }
 .par {
-    margin-left: 370px;
-    margin-right: 455px;
+    margin-left: 350px;
+    margin-right: 350px;
+    box-shadow: 1px 4px 10px #aaa;
+    padding: 65px;
 }
 h1 {
     text-transform: uppercase;
@@ -26,4 +29,7 @@ ul li {
 img {
     height: 479px;
     width: 356px;
+}
+.indent {
+    text-indent: 10px;
 }

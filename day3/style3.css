@@ -1,0 +1,40 @@
+h2 {
+    padding-bottom: 63px;
+}
+li {
+    display: block;
+}
+
+.icon {
+    padding: 25px;
+    font-size: 25px;
+    float: left;
+}
+.icon:hover{
+    opacity: 0.7;
+}
+.fa {
+    border-radius: 50%;
+    padding: 40px 47px 40px 47px;
+    text-decoration: none;
+    color: white;
+}
+.fa-facebook {
+    background: #385998;
+}
+.fa-twitter {
+    background: #00aced;
+}
+.fa-google {
+    background: #D84B37;
+}
+.fa-linkedin {
+    background: #0077B5;
+}
+
+.fa-skype {
+    background: #12A5F4;
+}
+.fa-pinterest {
+    background: #C92228;
+}

@@ -1,0 +1,103 @@
+body {
+    font-family: "Lucida Grande";
+    font-size: 13px;
+}
+header h1 {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+main {
+    border: 1px solid;
+    margin-left: 180px;
+}
+ul {
+    list-style-type: none;
+}
+.first {
+    border: solid 1px red;
+    margin-top: 35px;
+    color: red;
+}
+.second {
+    clear: left;
+    border: solid 1px black;
+    margin-top: 35px;
+    color: black;
+}
+h3 {
+    text-indent: 10px;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+form {
+    margin-left: 20px;
+    margin-right: 270px;
+}
+.row {
+    height: 30px;
+    border: 1px solid #ddd;
+}
+.label {
+    float: left;
+    width: 150px;
+    margin: 6px;
+}
+.right {
+   margin: 2px;
+}
+.input0 {
+    width: 460px;
+    margin-left: 40px;
+    height:20px;
+}
+.input1 {
+    width: 260px;
+    margin-left: 40px;
+    height:20px;
+}
+.input2 {
+    width: 160px;
+    margin-left: 40px;
+    height:20px;
+}
+.birthday {
+    margin-left: 40px;
+    height: 20px;
+}
+.policy-title {
+    border-bottom: 2px dashed #333;
+    border-top: 2px dashed #333;
+    margin-top: 30px;
+    text-align: center;
+}
+.policy-content {
+    overflow-y: scroll;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #696969;
+}
+.confirm {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.policy {
+    width: 660px;
+    margin-left: 90px;
+}

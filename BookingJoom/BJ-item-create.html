@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Quản lý vật phẩm | Booking Joom
+    </title>
+    <!-- CSS -->
+    <link rel="stylesheet" type ="text/css" href="../font-awesome.css">
+    <link rel="stylesheet" type ="text/css" href="css/item-create-style.css">
+</head>
+
+<body>
+<!--Header-->
+<header>
+    <div class="label"><h1>NAL | BOOKING JOOM</h1></div>
+    <div class="user">
+        <a class="user-name" href="#">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+            <p>Nguyen Thu Thuy</p>
+            <div class="dropdown">
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                <div class="dropdown-content">
+                    <a href="#">Sign out</a>
+                </div>
+            </div>
+        </a>
+    </div>
+</header>
+<!--Naviator-->
+<nav>
+    <a href="#">
+        <i class="fa fa-home" aria-hidden="true"></i>Home</a>
+    <a href="#">
+        <i class="fa fa-shopping-bag" aria-hidden="true"></i>Quản lý vật phẩm </a>
+    <a href="#">
+        <i class="fa fa-users" aria-hidden="true"></i>Quản lý phòng </a>
+    <a href="#">
+        <i class="fa fa-bicycle" aria-hidden="true"></i>Quản lý đặt phòng </a>
+</nav>
+
+<!--Article-->
+<article>
+    <div class="heading"><h2>Thêm vật phẩm</h2></div>
+    <form class="item-create">
+        <div class="row">
+            <label for="name">Tên</label>
+            <input type="text" name="item-name">
+        </div>
+        <div class="row">
+            <label for="type">Loại</label>
+            <select name="type">
+                <option value="volvo">Chọn loại</option>
+                <option value="saab">Cố định trong phòng </option>
+                <option value="fiat">Không cố định </option>
+            </select>
+        </div>
+        <div class="row">
+            <label for="status">Trạng thái</label>
+            <select name="status">
+                <option value="volvo">Tình trạng </option>
+                <option value="saab">Dùng tốt/luôn có </option>
+                <option value="fiat">Hỏng/hết </option>
+            </select>
+        </div>
+        <div class="row">
+            <label for="describe">Mô tả</label>
+            <textarea type="text" name="describe"></textarea>
+        </div>
+        <div class="action-create">
+            <button type="submit" class="create-btn">Tạo mới</button>
+            <button type="reset" class="reset-btn">Reset</button>
+        </div>
+    </form>
+
+</article>
+
+<!--Footer-->
+<footer>
+    <p class="copyright">© NAL Vietnam 2017</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+/*Setting chung*/
+body {
+    font-family: fantasy;
+    margin-left: 200px;
+    margin-right: 200px;
+    /*border: 1px solid black;*/
+}
+/*Phan header*/
+header {
+    padding: 20px;
+}
+header img {
+    height: 105px;
+    float: left;
+}
+header h1 {
+    margin-top: 30px;
+}
+.hd-left {
+    list-style-type: none;
+    padding: 3px;
+    float: left;
+}
+.hd-right {
+    list-style-type: none;
+    text-align: right;
+    padding-top: 41px;
+}
+.hd-right a {
+    padding: 10px;
+
+}
+/*Phan quote*/
+blockquote {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-left: -200px;
+    margin-right: -200px;
+    margin-top: 50px;
+    background-color: #3f9fe2;
+    color: white;
+}
+.quote {
+    text-align: center;
+    font-style: italic;
+}
+.author {
+    margin-left: 800px;
+    font-style: italic;
+}
+/*Phan section*/
+section {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.col {
+    width: 25%;
+    float: left;
+    margin: -10px 34px 34px 35px;
+}
+.col h4 {
+    color: #3f9fe2;
+    text-decoration: underline;
+}
+.col img {
+    width: 100%;
+}
+/*footer*/
+footer {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-left: -200px;
+    margin-right: -200px;
+    margin-bottom: 25px;
+    background-color: #3f9fe2;
+    color: white;
+}
+footer p {
+    text-align: center;
+}

@@ -1,0 +1,173 @@
+/*Body*/
+body {
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+header, nav, footer {
+    background-color: #277d3e;
+    color: white;
+}
+/*Header*/
+header {
+    border-bottom: 5px solid #828483;
+}
+header, footer {
+    padding: 16px 0;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+.label {
+    float: left;
+    width: 50%;
+    margin-left: 30px;
+}
+.label h1 {
+    display: inline;
+}
+.user {
+    float: right !important;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.fa-user-o {
+    float: left;
+}
+.user p {
+    display: inline;
+    margin: 10px;
+}
+.user-name {
+    text-decoration: none;
+    color: white;
+}
+.user-name:hover {
+    color: #ddd;!important;
+}
+.fa-caret-down {
+    cursor: pointer;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 1px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .fa-caret-down{
+    background-color: #3e8e41;
+}
+/*Navigator*/
+nav {
+    height: 400px;
+    width: 220px;
+    float: left;
+    padding-top: 30px;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+    padding: 10px 30px 10px 30px;
+    border-bottom: 1px solid grey;
+}
+nav a:hover {
+    background-color: #59dc5a;
+}
+.fa-home, .fa-shopping-bag, .fa-users, .fa-bicycle {
+    margin-right: 5px;
+}
+/*Article*/
+article {
+    border: 1px solid #ddd;
+    background-color: #c6d2ca;
+    margin-left: 220px;
+}
+.heading {
+    border-bottom: 1px solid #9e8f8f;
+    margin: 40px;
+}
+.row {
+    margin: 0px 0px 15px 40px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+input, textarea {
+    width: 400px;
+    border-radius: 6px;
+    border: none;
+}
+input {
+    height: 30px;
+}
+textarea {
+    height: 60px;
+}
+select {
+    width: 200px;
+    height: 30px;
+}
+.action-create {
+    margin: 40px 0px 40px 40px;
+}
+.create-btn {
+    background-color: #e02e47;
+    color: white;
+}
+.reset-btn {
+    background-color: white;
+    color: black;
+}
+.create-btn, .reset-btn {
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.create-btn:hover, .reset-btn:hover {
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 1);
+}
+
+/*Footer*/
+footer {
+    clear: both;
+    border-top: 5px solid #828483;
+}
+.copyright {
+    text-align: center;
+}

@@ -1,0 +1,643 @@
+/*Style chung*/
+body {
+    font-family: Arial;
+}
+
+/*Header*/
+header {
+    height: 90px;
+}
+.header {
+    height: 90px;
+    width: 50%;
+    float: left;
+}
+.header-left {
+    background-color: grey;
+}
+.header-right {
+    background-color: #484747;
+}
+.title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 50px;
+    /* color: white; */
+    letter-spacing: 10px;
+    border-bottom: 10px solid red;
+    /* overflow: hidden; */
+    background-color: white;
+    /* color: black; */
+    height: 50px;
+}
+.nhk {
+    font-family: "comic sans MS";
+    font-weight: bold;
+    position: absolute;
+    top: -11px;
+    left: 475px;
+}
+.world {
+    font-family: "Lucida Grande";
+    position: absolute;
+    top: -5px;
+}
+
+/*Navigator*/
+nav {
+    background-color: black;
+    height: 50px;
+    padding: 0px 40px 0px 40px;
+    border-bottom: 4px solid red;
+}
+.nav {
+    float: left;
+    overflow: hidden;
+    height: 100%;
+}
+.nav a {
+    height: 100%;
+    padding-top: 16px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 8px;
+    cursor: pointer;
+    display: block;
+    float: left;
+}
+.nav i {
+    margin-right: 6px;
+}
+.nav a:hover {
+    background-color: red;
+}
+.nav-left {
+    width: 60%;
+}
+.nav-right {
+    width: 40%;
+}
+.nav-right a {
+    border-right: 1px solid white;
+}
+.nav-right a:last-child {
+    border: none;
+}
+
+/*Main*/
+.main {
+    margin: 0px auto;
+    width: 80%;
+}
+.path {
+    color: #989797;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.path a {
+    text-decoration: none;
+    color: #989797;
+}
+.path a:last-child {
+    color: black;
+    font-weight: bold;
+}
+.path a:hover {
+    text-decoration: underline;
+}
+.top-box {
+    margin-top: 10px;
+}
+.top-title {
+    font-size: 30px;
+    color: #27b53a;
+    margin-bottom: 20px;
+}
+.top-title a {
+    text-decoration: none;
+    color: #27b53a;
+}
+.under-nav {
+    margin: 15px 20px -1px 0px;
+    height: 45px;
+}
+.sub-nav {
+    color: black;
+    text-decoration: none;
+    border-right: 1px dotted green;
+    /*padding: 10px;*/
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+.sub-nav:last-child {
+    border: none;
+}
+.sub-nav:first-child {
+    background-color: #b3e6ba;
+}
+.under-nav i {
+    margin-left: 10px;
+    color: green;
+}
+.dropbtn {
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b3e6ba;
+    min-width: 270px;
+    z-index: 1;
+    border: 1px solid green;
+    top: 55px;
+    left: 15px;
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid green;
+}
+.dropdown-content a:last-child {
+    border: none;
+}
+
+.sub-nav:hover .dropdown-content {
+    display: block;
+}
+
+/*Khung chinh*/
+.main-box {
+    background-image: url("../img/nhk-bg.png");
+    height: 1550px;
+}
+
+/*Bai hoc noi bat*/
+.lesson {
+    padding-top: 50px;
+    height: 280px;
+}
+.lesson-img {
+    width: 50%;
+    float: left;
+}
+.lesson-content {
+    width: 50%;
+    float: left;
+    background: white;
+    height: 278px;
+}
+.lesson-img img {
+    width: 100%;
+}
+.lesson-number {
+    background: url(../img/bg_le_titel.png) no-repeat;
+    color: white;
+    background-size: 125px 40px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: -10px;
+}
+.lesson-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+.content {
+    padding: 10px;
+}
+.lesson-start {
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background: #42c253;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    width: 96%;
+    text-align: left;
+    cursor: pointer;
+}
+.lesson-start:hover {
+    background-color: #44cc56;
+}
+.lesson-start h4 {
+    display: inline;
+}
+.fa-angle-right, .fa-angle-down {
+    float: right;
+    border: 2px solid white;
+    border-radius: 31px;
+    padding: 3px 11px 3px 11px;
+    font-weight: bold;
+    margin-right: -4px;
+}
+/*On tap*/
+.review {
+    background: url(../img/arrow.png) 0 50% no-repeat;
+    height: 200px;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 40px;
+}
+.review-intro {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    width: 40%;
+    float: left;
+    height: 100%;
+    text-decoration: none;
+}
+.review-content {
+    display: block;
+    padding-top: 20px;
+    font-size: 13px;
+    /* margin-left: -100px; */
+    width: 50%;
+    text-align: left;
+    padding-left: 80px;
+    width: 100%;
+    color: white;
+}
+.girl {
+    margin-top: -10px;
+}
+.review-qa {
+    width: 60%;
+    list-style-type: none;
+    float: left;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+    text-decoration: none;
+}
+.qa-content {
+    padding: 70px 40px 0px 60px;
+    color: black;
+}
+.qa-content:hover {
+    color: #59dc5a;
+}
+.boy {
+    float: right;
+    margin-top: -29px;
+    margin-right: 12px;
+}
+.review-qa h3 {
+    display: inline;
+}
+.model {
+    display: block;
+    width: 80px;
+}
+.model img {
+    width: 100%;
+    height: 100%;
+}
+/*Quang cao*/
+.adv {
+    height: 200px;
+    margin-top: 40px;
+}
+.banner {
+    width: 50%;
+    float: left;
+}
+.banner img {
+    width:97%;
+}
+.anna img {
+    float: right;
+}
+/*Lop hoc*/
+.class-orient {
+    width: 75%;
+    float: left;
+    background-color: white;
+}
+.class-col {
+    width: 33.3333%;
+    float: left;
+}
+.class-col a {
+    text-decoration: none;
+}
+.class-col img {
+    width: 90%;
+    margin: 10px;
+    border-radius: 15px;
+}
+.class-col h4 {
+    margin: 10px;
+    color: black;
+}
+/*Menu ben phai*/
+.class-menu {
+    width: 23%;
+    float: right;
+}
+.download {
+    display: block;
+    background-color: #ff8500;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.download h3 {
+    float: right;
+    padding: 3px;
+    background: white;
+    color: #ff8500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.dl-btn {
+    padding-top: 30px;
+}
+.class-nav {
+    margin-top: 15px;
+}
+.faq  {
+    display: block;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    color: #42c253;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.fa-envelope-o, .fa-globe {
+    padding-right: 6px;
+    color: #42c253;
+    font-size: 30px;
+}
+.lang p {
+    padding: 10px;
+    color: #42c253;
+    font-size: 14px;
+}
+.lang-content {
+    display: none;
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 1;
+}
+.lang-content a {
+    color: black;
+    margin: 0px 10px 10px 10px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid green;
+    padding: 10px;
+}
+.lang-btn {
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: white;
+    width: 100%;
+    text-align: left;
+}
+.lang:hover .lang-content {
+    display: block;
+}
+.lang-content a:hover {
+    background-color: #59dc5a;
+}
+
+/*Link download nhk*/
+.nhk-app {
+    padding-top: 20px;
+    text-align: center;
+}
+.nhk-app a {
+    padding: 10px;
+    text-align: center;
+}
+.nhk-app img {
+    width: 70px;
+}
+.app-dl-intro {
+    text-align: justify;
+}
+/*Chia se nhk len mang xa hoi*/
+.sns {
+    text-align: right;
+}
+/*.sns i {*/
+    /*padding: 10px*/
+/*}*/
+.fa-share-alt {
+    color: #7f7f7f;
+    padding: 10px;
+}
+/*Footer*/
+
+/*Noi dung lien quan den nhk*/
+.nhk-relate {
+    height: 250px;
+}
+.relate-row {
+    width: 100%;
+}
+.relate-col {
+    width: 33.333%;
+    float: left;
+}
+.relate-content {
+    border: 1px solid #dddddd;
+    width: 90%;
+    border-radius: 5px;
+    display: block;
+    padding: 0px 10px 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+.relate-content:hover {
+    background-color: #F3E7DF;
+}
+.relate-content img {
+    width: 100px;
+    float: left;
+    margin-right: 12px;
+}
+.relate-content p {
+    text-align: justify;
+}
+
+/*Link den cac noi dung cua trang nay*/
+.about-row{
+    height: 350px;
+}
+.abt-page {
+    background-color: #A0DFAA;
+}
+.about-col {
+    float: left;
+    text-align: justify;
+    border-right: 1px dotted;
+    height: 240px;
+    padding: 10px;
+    width: 190px;
+}
+.about-col:last-child {
+    border: none;
+}
+.about-col a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    color: #23241A;
+}
+.about-col a:hover {
+    text-decoration: underline;
+}
+.about-col h3 {
+    margin-top: 0px;
+}
+.about-row a {
+    display: block;
+}
+.about-row a img {
+    width: 180px;
+    padding-top: 10px;
+}
+/*Thong tin chung*/
+.general, .under-ft-1, .under-ft-2 {
+    width: 90%;
+    margin: auto;
+}
+.general {
+    height: 400px;
+}
+.general-row {
+    width: 90%;
+    margin: 0 auto;
+}
+.general-col {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    height: 280px;
+}
+.general-col:last-child {
+    border: none;
+}
+.general-title {
+    border-bottom: 1px solid;
+    margin-bottom: 25px;
+}
+.general-title h1 {
+    border-bottom: 3px solid;
+    margin-bottom: 0px;
+    width: fit-content;
+    padding-bottom: 3px;
+}
+.general-content li {
+    color: red;
+}
+.general-content li a {
+    text-decoration: none;
+}
+.listen img {
+    width: 80px;
+    padding: 5px;
+}
+.nhk-app {
+    float: left;
+    margin-right: 10px;
+}
+.nhk-app span {
+    color: #777777;
+    display: block;
+}
+.last-fb-ic img {
+    width: 70px;
+}
+.vn-nhk {
+    color: #3A72B5;
+}
+.note {
+    color: #9c9c9c;
+    font-size: 14px;
+}
+/*Footer cuoi cung*/
+.under-footer {
+    background-color: #e8e8e8;
+    padding-top: 30px;
+    height: 170px;
+}
+.under-ft-1 {
+    border-bottom: 1px solid;
+    height: 110px;
+}
+.under-ft-1-logo {
+    width: 30%;
+    float: left;
+}
+.under-ft-link {
+    width:70%;
+    float: right;
+}
+.under-ft-1-logo img {
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.under-ft-1-logo p {
+    font-size: 14px;
+}
+.under-ft-link {
+    text-align: left;
+}
+.link-row {
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.link-row a {
+    text-decoration: none;
+    color: black;
+}
+.link-row a:hover {
+    text-decoration: underline;
+}
+.under-ft-2 img {
+    float: right;
+}
+.under-ft-2 p {
+    float: right;
+}
+.authority {
+    margin-top: 16px;
+}
+.authority p {
+    margin: 6px 10px 0px 8px;
+}
+
+
